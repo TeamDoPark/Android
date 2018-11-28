@@ -134,7 +134,7 @@
                 android:layout_height="60dp"
                 android:layout_marginLeft="@dimen/fab_margin"
                 android:layout_marginRight="@dimen/fab_margin"
-                android:text="확인"
+                android:text="만들기"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
                 android:textSize="24sp" />
