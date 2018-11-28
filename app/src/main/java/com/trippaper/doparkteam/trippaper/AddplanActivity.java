@@ -5,6 +5,7 @@ import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -43,13 +44,6 @@ public class AddplanActivity extends AppCompatActivity {
         btn_CancelPlan.setTypeface(typeFace);
 
         //툴바 타이틀 변경
-        try {
-            Integer titleId = Resources.getSystem().getIdentifier("action_bar_title", "id", "android");
-            TextView title = (TextView) getWindow().findViewById(titleId);
-            // check for null and manipulate the title as see fit
-            title.setTypeface(typeFace);
-        } catch (Exception e) {
-        }
 
         getSupportActionBar().setTitle("여행 만들기");
     }

@@ -6,6 +6,7 @@ import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
@@ -51,13 +52,6 @@ public class SetupActivity extends AppCompatActivity {
         btn_appVersion.setTypeface(typeFace);
 
         //툴바 타이틀 변경
-        try {
-            Integer titleId = Resources.getSystem().getIdentifier("action_bar_title", "id", "android");
-            TextView title = (TextView) getWindow().findViewById(titleId);
-            // check for null and manipulate the title as see fit
-            title.setTypeface(typeFace);
-        } catch (Exception e) {
-        }
 
         getSupportActionBar().setTitle("설정");
     }

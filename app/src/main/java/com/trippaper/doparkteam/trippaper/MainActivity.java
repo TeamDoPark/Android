@@ -5,15 +5,18 @@ import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.nfc.Tag;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 import org.w3c.dom.Text;
 
@@ -32,17 +35,20 @@ public class MainActivity extends AppCompatActivity {
         btn_floatingBtn_AddPlan.setOnClickListener(mClickListner_FloatingBtn_AddPlan);
 
         //툴바 타이틀 변경
-
+        getSupportActionBar().setTitle("TRIP PAPER");
+        /*
         try {
             Integer titleId = Resources.getSystem().getIdentifier("action_bar_title", "id", "android");
             TextView title = (TextView) getWindow().findViewById(titleId);
             // check for null and manipulate the title as see fit
             Typeface typeFace = getResources().getFont(R.font.nanumsquareroundr);
+            title.setTextColor(getResources().getColor(R.color.black));
+            title.setGravity(Gravity.CENTER_HORIZONTAL);
             title.setTypeface(typeFace);
         } catch (Exception e) {
+            Log.e("Toolbar", "Failed to obtain action bar title reference");
         }
-
-        getSupportActionBar().setTitle("TRIP PAPER");
+        getSupportActionBar().setTitle("TRIP PAPER");*/
     }
 
     Button.OnClickListener mClickListner_FloatingBtn_AddPlan = new View.OnClickListener() {
