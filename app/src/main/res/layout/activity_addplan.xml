@@ -31,14 +31,14 @@
 
         <Button
             android:id="@+id/btn_selectNation"
-            style="@style/Widget.AppCompat.Button.Colored"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Small"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginLeft="@dimen/fab_margin"
             android:layout_marginTop="@dimen/fab_margin"
             android:layout_marginRight="@dimen/fab_margin"
             android:text="국가 선택"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="24sp" />
 
         <LinearLayout
@@ -52,23 +52,25 @@
                 android:id="@+id/text_startDay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="시작일"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:layout_marginLeft="@dimen/fab_margin"
                 android:layout_marginRight="55dp"
+                android:text="시작일"
+                android:textColor="@color/mainColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 app:fontFamily="@font/nanumsquareroundl" />
 
             <TextView
                 android:id="@+id/text_endDay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="종료일"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:layout_marginLeft="55dp"
                 android:layout_marginRight="@dimen/fab_margin"
-                app:fontFamily="@font/nanumsquareroundl"/>
+                android:text="종료일"
+                android:textColor="@color/mainColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/nanumsquareroundl" />
 
         </LinearLayout>
 
@@ -81,25 +83,25 @@
 
             <Button
                 android:id="@+id/btn_selectStartDay"
-                style="@style/Widget.AppCompat.Button.Colored"
+                style="@android:style/Widget.DeviceDefault.Light.Button.Small"
                 android:layout_width="150dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="@dimen/fab_margin"
                 android:layout_marginRight="@dimen/fab_margin"
                 android:text="18.11.20"
                 android:textAllCaps="true"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_selectEndDay"
-                style="@style/Widget.AppCompat.Button.Colored"
+                style="@android:style/Widget.DeviceDefault.Light.Button.Small"
                 android:layout_width="150dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="@dimen/fab_margin"
                 android:layout_marginRight="@dimen/fab_margin"
                 android:text="18.11.21"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="24sp" />
 
         </LinearLayout>
@@ -129,25 +131,25 @@
 
             <Button
                 android:id="@+id/btn_AddPlan"
-                style="@style/Widget.AppCompat.Button.Colored"
+                style="@android:style/Widget.DeviceDefault.Light.Button.Small"
                 android:layout_width="150dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="@dimen/fab_margin"
                 android:layout_marginRight="@dimen/fab_margin"
                 android:text="만들기"
                 android:textAllCaps="true"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_CancelPlan"
-                style="@style/Widget.AppCompat.Button.Colored"
+                style="@android:style/Widget.DeviceDefault.Light.Button.Small"
                 android:layout_width="150dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="@dimen/fab_margin"
                 android:layout_marginRight="@dimen/fab_margin"
                 android:text="취소"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="24sp" />
 
         </LinearLayout>

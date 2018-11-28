@@ -8,49 +8,123 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:layout_height="match_parent"
+        android:background="#e9e9e9"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_setUp_Basic"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left|bottom"
+            android:text="   기본설정"
+            android:textColor="#808080"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/nanumsquareroundl" />
 
         <Button
-            android:id="@+id/Btn_viewWay"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:id="@+id/Btn_standardBill"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:gravity="left"
-            android:text="보기 방식"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:gravity="left|center_vertical"
+            android:text="     기준 화폐"
+            android:textAllCaps="false"
             android:textColor="@android:color/black"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <Button
-            android:id="@+id/Btn_changeBill"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:id="@+id/Btn_setUp_changeBill"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:gravity="left"
-            android:text="기준 화폐"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:gravity="left|center_vertical"
+            android:text="     환율"
+            android:textAllCaps="false"
             android:textColor="@android:color/black"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <Button
-            android:id="@+id/Btn_restoration"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:id="@+id/Btn_setUp_category"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:gravity="left"
-            android:text="복구하기"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:gravity="left|center_vertical"
+            android:text="     카테고리"
+            android:textAllCaps="false"
             android:textColor="@android:color/black"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_setUp_private"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left|bottom"
+            android:text="   개인 정보 보호"
+            android:textColor="#808080"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/nanumsquareroundl" />
 
         <Button
             android:id="@+id/Btn_backUp"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:gravity="left"
-            android:text="백업(내부 저장소)하기"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:gravity="left|center_vertical"
+            android:text="     백업 및 복원"
+            android:textAllCaps="false"
             android:textColor="@android:color/black"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_setUp_etc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="left|bottom"
+            android:layout_marginBottom="10dp"
+            android:text="   기타"
+            android:textColor="#808080"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/nanumsquareroundl" />
+
+        <Button
+            android:id="@+id/Btn_teamIntroduce"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:gravity="left|center_vertical"
+            android:text="     About us"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Btn_appAssessment"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:gravity="left|center_vertical"
+            android:text="     App 평가하기"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Btn_appVersion"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:gravity="left|center_vertical"
+            android:text="     App Version"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
